@@ -57,9 +57,9 @@ Prediction Logs
 Monitoring Report
       ↓
 Automatic Retraining Trigger
+```
 
-
-Model Approach
+#Model Approach
 
 The model learns normal sensor behavior.
 During inference:
@@ -76,7 +76,8 @@ Example:
   "status": "ANOMALY"
 }
 
-Tech Stack
+#Tech Stack
+
 Python, PyTorch
 FastAPI
 Streamlit
@@ -85,7 +86,7 @@ Docker & Docker Compose
 Pytest
 GitHub Actions
 
-Run Locally
+#Run Locally
 
 Install dependencies:
 pip install -r requirements.txt
@@ -97,7 +98,7 @@ Run Streamlit
 streamlit run streamlit/streamlit_app.py
 
 
-Run with Docker
+#Run with Docker
 docker compose up
 
 See  process and then run fastapi and streamlit 
