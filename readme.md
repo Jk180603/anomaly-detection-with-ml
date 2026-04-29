@@ -8,7 +8,7 @@ The project includes model training, real-time inference, Streamlit UI, FastAPI 
 ## 📸 Demo
 
 ### 🖥️ Dashboard (Input + Prediction)
-![Dashboard](images/dashboard.png)
+![Dashboard](images/Dashboard.png)
 
 - Users can paste sensor sequence JSON or select sample data  
 - Real-time prediction using trained LSTM Autoencoder  
@@ -17,7 +17,7 @@ The project includes model training, real-time inference, Streamlit UI, FastAPI 
 ---
 
 ### 🔴 Anomaly Detection (Case 1)
-![Anomaly 1](images/anomaly1.png)
+![Anomaly 1](images/anomaly_1.png)
 
 - High reconstruction error compared to threshold  
 - Indicates abnormal sensor behavior  
@@ -26,7 +26,7 @@ The project includes model training, real-time inference, Streamlit UI, FastAPI 
 ---
 
 ### 🔴 Anomaly Detection (Case 2)
-![Anomaly 2](images/anomaly2.png)
+![Anomaly 2](images/anomaly_2.png)
 
 - Significant deviation from learned normal patterns  
 - Simulates critical system fault scenario  
