@@ -1,9 +1,36 @@
 # ⚙️ Industrial Anomaly Detection System with MLOps
 
-![Streamlit Demo](images/streamlit.png)
+
 
 A production-ready **AI/ML anomaly detection system** using an **LSTM Autoencoder** on NASA turbofan engine sensor data.  
 The project includes model training, real-time inference, Streamlit UI, FastAPI backend, prediction logging, monitoring, automated retraining, Docker, and GitHub Actions CI.
+
+## 📸 Demo
+
+### 🖥️ Dashboard (Input + Prediction)
+![Dashboard](images/dashboard.png)
+
+- Users can paste sensor sequence JSON or select sample data  
+- Real-time prediction using trained LSTM Autoencoder  
+- Displays reconstruction error, threshold, and status  
+
+---
+
+### 🔴 Anomaly Detection (Case 1)
+![Anomaly 1](images/anomaly1.png)
+
+- High reconstruction error compared to threshold  
+- Indicates abnormal sensor behavior  
+- Status: **ANOMALY**
+
+---
+
+### 🔴 Anomaly Detection (Case 2)
+![Anomaly 2](images/anomaly2.png)
+
+- Significant deviation from learned normal patterns  
+- Simulates critical system fault scenario  
+- Status: **ANOMALY**
 
 ---
 
