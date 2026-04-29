@@ -59,24 +59,24 @@ Monitoring Report
 Automatic Retraining Trigger
 ```
 
-##Model Approach
+## 🧠 Model Approach
 
-The model learns normal sensor behavior.
-During inference:
+The model learns normal sensor behavior. During inference:
 
-Low reconstruction error → NORMAL
-High reconstruction error → ANOMALY
+- Low reconstruction error → **NORMAL**  
+- High reconstruction error → **ANOMALY**
 
-Example:
+### Example
 
+```json
 {
   "reconstruction_error": 21.198053,
   "threshold": 0.379192,
   "is_anomaly": true,
   "status": "ANOMALY"
 }
-
-##Tech Stack
+```
+## Tech Stack
 
 Python, PyTorch
 FastAPI
@@ -86,7 +86,7 @@ Docker & Docker Compose
 Pytest
 GitHub Actions
 
-##Run Locally
+## Run Locally
 
 Install dependencies:
 pip install -r requirements.txt
@@ -98,7 +98,7 @@ uvicorn app.main:app --reload
 streamlit run streamlit/streamlit_app.py
 
 
-#Run with Docker
+## Run with Docker
 docker compose up
 
 See  process and then run fastapi and streamlit 
