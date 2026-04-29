@@ -1,0 +1,16 @@
+pandas
+numpy
+scikit-learn
+torch
+mlflow
+fastapi
+uvicorn
+pydantic
+python-multipart
+evidently
+matplotlib
+seaborn
+pytest
+pyyaml
+joblib
+streamlit
